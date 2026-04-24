@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+} 
+table, td, th {
+    border: 1px black solid;
+}
+table {
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 5 auto;
+    text-align: center;
+}
+
+th, td{
+    font-size: 20px;
+    padding: 10px;
+}
+
+th {
+    background-color: blanchedalmond;
+}
+
+
+.draw{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: antiquewhite;
+    
+}
+#canvas {
+    width: 500px;
+    height: 700px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.inputBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+#btn {
+    margin: 10px;
+    padding: 20px;
+    border: 2px navy solid;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.bigFlex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

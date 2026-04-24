@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mere za konstrukciju</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Unos i proračun mera za osnovnu konstrukciju haljine</h1>
+<div class="bigFlex">
+    <div class="item1">
+      <div class="inputBox">
+        <label for="vt"
+          >Visina u cm:
+          <input type="number" id="vt" placeholder="visina" value="168"
+        /></label>
+
+        <label for="og"
+          >Obim grudi u cm:
+          <input type="number" id="og" placeholder="obim grudi" value="92"
+        /></label>
+
+        <label for="os"
+          >Obim struka u cm:
+          <input type="number" id="os" placeholder="obim struka" value="74"
+        /></label>
+
+        <label for="ob"
+          >Obim bokova u cm:
+          <input type="number" id="ob" placeholder="obim bokova" value="98"
+        /></label>
+      </div>
+      <input type="button" value="izračunaj" id="btn" />
+
+      <table>
+        <tr>
+          <th title="dubina rukavskog izreza">DRI</th>
+          <th title="dužina leđa">DL</th>
+          <th title="dužina do boka">DB</th>
+          <th title="širina vratnog izreza">SVI</th>
+          <th title="širina leđa">SL</th>
+          <th title="prednja širina">PS</th>
+          <th title="širina rukavskog izreza">SRI</th>
+          <th title="prednja dužina">PD</th>
+        </tr>
+        <tr>
+          <td id="dri">/</td>
+          <td id="dl">/</td>
+          <td id="db">/</td>
+          <td id="svi">/</td>
+          <td id="sl">/</td>
+          <td id="ps">/</td>
+          <td id="sri">/</td>
+          <td id="pd">/</td>
+        </tr>
+      </table>
+    </div>
+    <div class="draw item2">
+      <canvas id="canvas"> </canvas>
+    </div>
+
+</div>
+    <script src="index.js"></script>
+    <script src="mere.js"></script>
+  </body>
+</html>
